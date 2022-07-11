@@ -6,6 +6,7 @@
 
 import PyPDF2
 
+print('PDFtoTXT v1.0 - Created by Felipe Miguel Nery Lunkes (10/07/2022)\n')
 PDFname=input('PDF name: ')
 PDFFile=open(PDFname, "rb")
 print('Converting PDF', PDFname, 'into TXT...')

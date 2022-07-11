@@ -8,6 +8,7 @@
 
 import imageio
 
+print('mkGIF v1.0 - Created by Felipe Miguel Nery Lunkes (10/07/2022)\n')
 IMGFile=input('Filename of the images (in order): ')
 Files=IMGFile.split(' ')
 

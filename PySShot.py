@@ -7,5 +7,6 @@
 
 import pyautogui
 
+print('PySShot v1.0 - Created by Felipe Miguel Nery Lunkes (10/07/2022)\n')
 myScreen=pyautogui.screenshot()
-myScreen.save(r'./Screen.jpg')
+myScreen.save(r'Screen.jpg')
