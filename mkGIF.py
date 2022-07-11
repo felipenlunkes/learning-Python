@@ -6,10 +6,19 @@
 
 # First, the filenames
 
-IMGFile=input('Filename of the images: ')
+import imageio
+
+IMGFile=input('Filename of the images (in order): ')
 Files=IMGFile.split(' ')
 
 for x in range(0, len(Files)):
     print(Files[x])
 
-# TODO 
+IMAGES = []
+
+for IMGFilenames in Files:
+    IMAGES.append(imageio.imgread(IMGFilenames))
+
+imageio.mimsave('gif.gif', IMAGES, 'GIF', duration=2)
+
+exit()
